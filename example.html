@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<!-- Chunks taken from: http://www.chazzuka.com/blog/?p=221 -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>JQuery Live Stream</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.twitter-live-stream.js">
+	</script>
+	
+	<style media="screen" type="text/css">
+
+	li {display:none;}
+	</style>
+	
+</head>
+<body>
+	<aside>
+		<h3>My Tweets</h3>
+			<ul id="twitter-stream">
+			</ul>
+	</aside>
+	<script type="text/javascript">
+	jQuery(document).ready(function($){
+		tweet_stream("bieber")
+	});
+	</script>
+</body>
+</html>
