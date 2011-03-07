@@ -28,7 +28,8 @@ window.tweet_stream = function(query, broken_avatar, timeout) {
 		$.each(ids, function(id) {
 			$("#" + ids[id]).show('fast')
 		})
+		setTimeout(function() { tweet_stream(query, broken_avatar, timeout); }, timeout*1000);
+		
 	});
-	setTimeout(function() { tweet_stream(query); }, timeout*1000);
 	
 }
