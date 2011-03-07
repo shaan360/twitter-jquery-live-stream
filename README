@@ -1,0 +1,6 @@
+Real Time Scrolling Twitter Feed Using JSON Twitter API (no server side code)
+
+http://mbtaalerts.heroku.com/
+http://mbtaalerts.heroku.com/touch.html
+
+Warning: Twitter Imposes a Rate Limiting.  Do research when investigating the Timeout to use.
