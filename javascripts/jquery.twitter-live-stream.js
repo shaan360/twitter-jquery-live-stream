@@ -26,7 +26,6 @@ window.tweet_stream = function(query, broken_avatar, timeout) {
 		$('#twitter-stream').html(content);
 		
 		$.each(ids, function(id) {
-			
 			$("#" + ids[id]).show('fast')
 		})
 	});
